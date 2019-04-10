@@ -1,0 +1,69 @@
+@charset "ISO-8859-1";
+body{
+    background-color: #58ABE1;
+       color: #797784;
+    font-size: 18px;
+}
+#contentbox{
+    width: 400px;
+    height: 550px;
+    background-color: #ffffff;
+    margin:30px auto 20px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 2px 1px black;
+    clear: both;
+}
+#heading h1{
+    text-align: center;
+ clear: both;
+}
+hr{
+    width: 50%;
+   border-width: 2px;
+      clear: both;
+}
+
+#information{
+    margin: auto;
+    padding: 40px;
+      clear: both;
+}
+#information label{
+    font-size: 124%;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 4px;
+      clear: both;
+}
+#namefield, #emailfield,#messagefield{
+    padding: 10px;
+    width: 80%;
+    margin: 6px;
+      clear: both;
+    
+}
+
+
+#pswd{
+	    padding: 10px;
+    width: 80%;
+    margin: 6px;
+      clear: both;
+}
+
+#cpswd{
+	    padding: 10px;
+    width: 80%;
+    margin: 6px;
+      clear: both;
+}
+
+
+input[type="submit"]{
+    font-size: 120%;
+    margin: 10px;
+    padding: 4px;
+    color:  #797784;
+    float: right;
+}

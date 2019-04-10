@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+body{
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    font-family: 'Margarine', cursive;
+    background-image: url('https://cdn.pixabay.com/photo/2017/12/17/19/08/away-3024773_960_720.jpg');
+      background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#formBody{
+    border: 1px solid gray;
+    height: 550px;
+    max-width: 450px;
+    margin:50px auto 10px;
+    box-shadow: 0 5px 10px black;
+    background-color: white;
+  
+
+}
+#formBody form{
+    margin: 0 auto;
+}
+label{
+     font-family: 'Margarine', cursive;
+}
+#formBody form input{
+    padding-right: 20px;
+    border: 1px solid green;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-bottom-left-radius:50px;
+      border-bottom-right-radius: 50px;
+    margin-bottom: 10px;
+}
+#formBody img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+footer{
+    padding:10px;
+    background-color: #000000;
+    color: white;
+
+}

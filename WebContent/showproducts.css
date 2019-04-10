@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+#items{
+border:2px groove green;
+	margin-bottom:50px;
+	margin-top:200px;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+#images{
+	background-image:url(images/bg1.jpg);
+}
+#productname{
+	padding:10px;
+	
+	margin:0px auto 10px;
+	background-color:white;
+	color:black;
+font-size: 18px;
+font-weight:bold;
+	text-align: center;
+}
+#qty{
+	background-color:#24C285;
+}
+#submitfield{
+	margin:0px auto 30px;
+	padding:10px;
+	width:30%
+	font-size: 28px;
+font-weight:bold;
+}
+
+
+#submitfield:hover{
+	border-radius:10%;
+}
+
+
+#productprice{
+	background-color:white;
+	color:black;
+	padding:10px;
+	font-size: 18px;
+font-weight:bold;
+	margin:0px auto 10px;
+	text-align: center;
+}
+label{
+		font-size: 18px;
+font-weight:bold;
+}

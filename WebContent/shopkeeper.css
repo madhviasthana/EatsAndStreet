@@ -1,0 +1,152 @@
+@charset "ISO-8859-1";
+
+body {
+  font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+  
+}
+/*====================================================Menu bar===============================================================*/
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  opacity: 0.1;
+    animation: movement 3s;
+    font-weight: bold;
+    animation-timing-function: ease-in;
+}
+
+@keyframes movement{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(250px);
+    }
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color:#993333;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+    
+/*====================================================initialContent===============================================================*/    
+    
+    
+#initialContent{
+    padding: 20px;
+    margin: 10px;
+}
+#btn{
+    padding: 20px;
+    color: white;
+    background-color: black;
+} 
+    
+/*====================================================initialContent===============================================================*/  
+     #spriteSheet{
+         background-image: url('https://i.pinimg.com/originals/e7/0e/7d/e70e7d41a4a2af947f551aa49b1236d2.png');
+         height:300px; 
+         width:184px;
+         display: inline-block;
+         color: firebrick;
+         font-size:26px;
+         animation: walk 1s steps(8) infinite,
+         forward 10s linear infinite;
+     }
+     @keyframes walk{
+         0%{
+             background-position: 0px;
+         }
+         
+         100%{
+             background-position: 1472px;
+         }
+     }
+     
+     @keyframes forward{
+         0%{
+             transform: translateX(-300px);
+             
+         }
+         
+         100%{
+             transform: translateX(1200px);
+         }
+     }
+     
+     #spriteSheet::after{
+         content:'Thanks -:)';
+
+position: relative;
+         left: 300px;
+         top: 100px;
+}
+    
+    
+    
+    
+/*footer*/
+
+footer{
+    padding: 30px;
+    background-color: #EA5B31;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
